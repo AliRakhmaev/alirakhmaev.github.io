@@ -31,11 +31,15 @@ main{
 }
 
 
-
+.site-logo-image{
+	  float: left;
+	  height: auto;
+	  width: 220px;
+  }
   
   .logo-image{
 	  float: left;
-	  height: auto;
+	  height: 147px;
 	  width: 220px;
   }
   
