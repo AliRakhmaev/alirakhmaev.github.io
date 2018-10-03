@@ -1,0 +1,241 @@
+ body {background-color: hsl(235,21%,70%);
+ }
+  
+main{
+  background-image: url(backgrondImageForTop.jpg);
+  color: beige;
+  font-family: sans-serif;
+  column-count: 4;
+  border-radius: 8px;
+   border-top:8px solid white;
+  border-bottom:8px solid white;
+}
+
+.partners{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partners img{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+  padding: 45px 16px;
+  text-decoration: none;
+  
+}
+
+.partners-text{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+
+  
+  .logo-image{
+	  float: left;
+	  height: 250px;
+	  width: auto;
+  }
+  
+  footer{	  
+    width: : 100%;
+    background-color: hsl(235,50%,70%);
+    border-radius: 8px;
+  }
+
+footer p {
+  color: white;
+  text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  
+}
+
+/*----------------------- Область навигации ------------------------------ */
+  nav {
+	border-radius: 8px;
+	background-color: hsl(235,50%,70%);	
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav a{
+	float: left;
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 45px 16px;
+  text-decoration: none;
+}
+
+  nav a:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    /* add your code below this line */
+    animation-fill-mode: forwards;
+    /* add your code above this line */
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+
+#site-logo-image{
+	  float: left;
+	  height: auto;
+	  width: 220px;
+  }
+/*----------------------- Область навигации ------------------------------ */  
+
+
+/*----------------------- Область обработки цитат ------------------------------ */
+
+.quotes {
+  display: flex;
+  background-image: url(career/Office-career.jpeg);
+  border-radius: 8px;
+}
+
+.quotes p {
+  float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 45px 16px;
+    text-decoration: none;
+  
+}
+
+
+ blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+  width: 35%;
+  margin:50px auto;
+  font-size: 1.3em;
+   color: 		blue;
+}
+
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  font: 3em/1.08em 'PT Sans', sans-serif;
+  color: #666;
+  text-align: center;
+}
+
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: purple;
+} 
+
+/*----------------------- Область обработки цитат ------------------------------ */
+
+
+
+/*----------------------- Область обработки выпадающего меню ------------------------------ */
+
+/* скрываем выпадающие списки по умолчанию
+			 * и задаем абсолютное позиционирование 
+			nav li > ul  {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+	
+			nav li:hover > ul {
+			    display:inherit;
+			}
+			
+	
+			nav li ul a{
+			    min-width:170px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			} */
+
+
+nav > li:hover > ul{
+  display: block;
+}
+
+
+.inner_menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  white-space: nowrap;
+  background-color: #aaf0d1;
+}
+
+.inner_menu > li > a{
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px; 
+  color: inherit;
+  text-decoration: none; 
+}
+.inner_menu > li > a:hover{
+  color: white;
+  background-color: #a7fc00; 
+}
+/*----------------------- Область обработки выпадающего меню ------------------------------ */
+
+
+
+/*----------------------- Область обработки Grid-элемента для услуг компании ------------------------------ */
+.grid-container {
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.product-image{
+	height: auto;
+	width: 220px;
+}
+
+.product-image-2{
+	height: 220px;
+	width: auto;
+}
+
+/*----------------------- Область обработки Grid-элемента для услуг компании ------------------------------ */
+  
+ 
