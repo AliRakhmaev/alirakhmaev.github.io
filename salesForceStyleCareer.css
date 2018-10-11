@@ -151,6 +151,18 @@ blockquote:after {
   color: purple;
 } 
 
+blockquote:hover{
+    animation-name: background-color-blockquote;
+    animation-duration: 650ms;
+    /* add your code below this line */
+    animation-fill-mode: forwards;
+    /* add your code above this line */
+  }
+  @keyframes background-color-blockquote {
+    100% {
+      background-color: white;
+    }
+  }
 /*----------------------- Область обработки цитат ------------------------------ */
 
 
@@ -210,7 +222,7 @@ nav > li:hover > ul{
 
 
 
-/*----------------------- Область обработки Grid-элемента для услуг компании ------------------------------ */
+/*----------------------- Область обработки Grid-элемента о направлениях деятельности компании ------------------------------ */
 .grid-container {
   border-radius: 8px;
   display: grid;
@@ -224,6 +236,11 @@ nav > li:hover > ul{
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+.approach-name {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .product-image{
