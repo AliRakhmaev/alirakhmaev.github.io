@@ -1,0 +1,133 @@
+ body {background-color: hsl(235,21%,70%);
+ }
+
+
+.introduce{
+  background-image: url(it-service-pictures/gts-star-header-background7.jpg);
+  background-size: 100% 500px;
+  background-repeat:no-repeat;
+  height: 300px;
+}
+
+.introduce >h1{
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: left;
+  text-justify: center;
+}
+
+.introduce > p{
+  color: white;
+  font-size: 24px;
+  width: 23em;
+}
+  
+main{
+  color: white;
+  font-family: sans-serif;
+  font-size: 34px;
+  border-radius: 8px;
+  text-align: center;
+   
+}
+
+
+.product_header {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-item {
+   display: block;
+  background: #1A4780;
+  text-align: center;
+ border-radius: 5px;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+  width: 35%;
+  margin:50px auto;
+  font-size: 1.3em;
+  color: white;
+}
+
+.flex-image{
+  width: 100px;
+  height: 100px;
+}
+
+
+.site-logo-image{
+	  float: left;
+	  height: auto;
+	  width: 220px;
+  }
+  
+  .logo-image{
+	  float: left;
+	  height: 147px;
+	  width: 220px;
+  }
+  
+  footer{	  
+    width: : 100%;
+    background-color: hsl(235,50%,70%);
+    border-radius: 8px;
+  }
+
+footer p {
+  color: white;
+  text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  
+}
+
+/*----------------------- Область навигации ------------------------------ */
+  nav {
+	border-radius: 8px;
+	background-color: hsl(235,50%,70%);	
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav a{
+	float: left;
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 45px 16px;
+  text-decoration: none;
+}
+
+  nav a:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    /* add your code below this line */
+    animation-fill-mode: forwards;
+    /* add your code above this line */
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+/*----------------------- Область навигации ------------------------------ */  
+
+
+
+
+ 
