@@ -410,7 +410,7 @@ body {
 .section .tiles img {
   width: 50%;
   float: left;
-  height: auto;
+  height: 50%;
   opacity: 0.7;
   -moz-transition: 0.3s ease-in-out all;
   -o-transition: 0.3s ease-in-out all;
@@ -438,7 +438,7 @@ body {
 }
 .section .middle img {
   width: 100%;
-  height: auto;
+  height: 40em;
   display: block;
 }
 
