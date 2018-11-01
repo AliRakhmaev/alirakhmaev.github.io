@@ -4,8 +4,9 @@
 
 .main-introduce{
    background-image: url(contact-info/contact-feature-2622559.jpg);
-  background-size: 100% 500px;
-  background-repeat:no-repeat;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   height: 400px;  
 }
 
@@ -83,7 +84,7 @@ main{
 
 .flex-item {
    display: block;
-  background: green;
+  background: #1A4780;
   text-align: center;
  border-radius: 5px;
   border-style: solid;
