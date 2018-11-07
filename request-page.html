@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Balkan Style - Portfolio Gallery</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="css/requestStyle.css">
+</head>
+
+<body>
+<div id="wrapper">
+  <section>
+  	<header>
+      <div class="name">Имя:</div>
+      <div class="surname">Фамилия:</div>
+      <div class="position">Должность:</div>
+      <div class="company_name">Название компании:</div>
+      <div class="email">Электронная Почта:</div>
+      <div class="telephone_number">Номер телефона:</div>
+      <div class="interesting_theme">Интересующая тема:</div>
+  	</header>
+  	<form name="myForm" method="post" action="dumb.htm" onsubmit="return validate_form ();">
+      <div class="inputs">
+      	<input type="text" id="name" />
+      	<input type="text" id="surname" />
+        <input type="text" id="position" />
+        <input type="text" id="company_name" />
+        <input type="text" id="email" />
+        <input type="text" id="telephone_number" />
+        <input type="text" id="interesting_theme" />
+      </div>
+      <input type="submit" value="Отправить заявку" class="button" />
+  	</form>
+    <div class="forgot">
+      <a href="#">Возникли вопросы по заполнению?</a>
+    </div>
+  </section>
+ 
+</div>
+</body>
+
+<script src="request-page-script.js"></script>
+</html>
