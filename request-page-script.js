@@ -5,7 +5,7 @@ function validate_form (){
              || document.myForm.position.value == "" ||  document.myForm.email.value == ""
              || document.myForm.telephone_number.value == "" || document.myForm.interesting_theme.value == "")
         {
-                alert ( "Пожалуйста заполните поле 'Ваше имя'." );
+                alert ( "Пожалуйста запоните все поля");
                 valid = false;
         }
 

@@ -251,6 +251,12 @@ nav > li:hover > ul{
 	width: auto;
 }
 
+.site-logo-image{
+	  float: left;
+	  height: auto;
+	  width: 220px;
+  }
+
 /*----------------------- Область обработки Grid-элемента для услуг компании ------------------------------ */
   
  

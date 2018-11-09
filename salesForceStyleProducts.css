@@ -213,9 +213,17 @@ blockquote:after {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #009999;
-  
-}
+    animation-name: background-color-dropcontent;
+    animation-duration: 500ms;
+    /* add your code below this line */
+    animation-fill-mode: forwards;
+    /* add your code above this line */
+  }
+  @keyframes background-color-dropcontent {
+    100% {
+      background-color: #009999;
+    }
+  }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -224,8 +232,17 @@ blockquote:after {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover {
-    background-color: white;
-}
+    animation-name: background-color-dropdown;
+    animation-duration: 500ms;
+    /* add your code below this line */
+    animation-fill-mode: forwards;
+    /* add your code above this line */
+  }
+  @keyframes background-color-dropdown {
+    100% {
+      background-color: white;
+    }
+  }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
