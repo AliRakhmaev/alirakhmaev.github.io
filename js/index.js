@@ -6,9 +6,9 @@ $(document).ready(function(){
    function resizeThis() {
       $imgH = $('.middle img').width();
       if ($(window).width() >= $sm) {
-         $('.left,.right,.section').css('height', $imgH);
+         $('.left,.right,.section,.middle img').css('height', $imgH);
       } else {
-         $('.left,.right,.section').css('height', 'auto');
+         $('.left,.right,.section,.middle img').css('height', 'auto');
       }
    }
 
