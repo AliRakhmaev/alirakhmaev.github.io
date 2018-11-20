@@ -1,19 +1,6 @@
  body {background-color: hsl(235,21%,70%);
  }
   
-main{
-  background-image: url(products-style/mobile/new-background.jpg);
-  background-size: 1510px 500px;
-  background-repeat:no-repeat;
-  color: #D53E07;
-  font-family: sans-serif;
-  font-size: 34px;
-  column-count: 4;
-  border-radius: 8px;
-   
-}
-
-
 .product_header {
   font-size: 40px;
   font-weight: bold;
@@ -40,39 +27,17 @@ main{
   font-size: 1.3em;
 }
 
-.mobile-product-image{
-
-}
-
-.partners img{
-	display: block;
-  color: white;
-  text-align: center;
-  padding: 45px 16px;
-  text-decoration: none;
-  
-}
-
-
-
 .mobile-product-text2{
   font-size: 24px;
   text-align: center;
 }
-
 
 .site-logo-image{
 	  float: left;
 	  height: auto;
 	  width: 220px;
   }
-  
-  .logo-image{
-	  float: left;
-	  height: 147px;
-	  width: 220px;
-  }
-  
+
   footer{	  
     width: : 100%;
     background-color: hsl(235,50%,70%);
@@ -120,60 +85,6 @@ nav a{
   }
 /*----------------------- Область навигации ------------------------------ */  
 
-
-/*----------------------- Область обработки цитат ------------------------------ */
-
-.quotes {
-  display: flex;
-}
-
-.quotes p {
-  float: left;
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 45px 16px;
-    text-decoration: none;
-  
-}
-
-
- blockquote {
-  display: block;
-  border-width: 2px 0;
-  border-style: solid;
-  border-color: #eee;
-  padding: 1.5em 0 0.5em;
-  margin: 1.5em 0;
-  position: relative;
-  width: 35%;
-  margin:50px auto;
-  font-size: 1.3em;
-}
-
-blockquote:before {
-  content: '\201C';
-  position: absolute;
-  top: 0em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
-  width: 3rem;
-  height: 2rem;
-  font: 3em/1.08em 'PT Sans', sans-serif;
-  color: #666;
-  text-align: center;
-}
-
-blockquote:after {
-  content: "\2013 \2003" attr(cite);
-  display: block;
-  text-align: right;
-  font-size: 0.875em;
-  color: white;
-} 
-
-/*----------------------- Область обработки цитат ------------------------------ */
 
 
 

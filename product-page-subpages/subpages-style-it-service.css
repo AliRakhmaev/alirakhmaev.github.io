@@ -4,9 +4,10 @@
 
 .introduce{
   background-image: url(it-service-pictures/gts-star-header-background7.jpg);
-  background-size: 100% 500px;
-  background-repeat:no-repeat;
-  height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  height: 600px;  
 }
 
 .introduce >h1{
@@ -20,7 +21,7 @@
 .introduce > p{
   color: white;
   font-size: 24px;
-  width: 23em;
+  width: 32em;
 }
   
 main{

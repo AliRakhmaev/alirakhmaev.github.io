@@ -159,33 +159,11 @@ blockquote:hover{
   @keyframes background-color-blockquote {
     100% {
       background-color: darksalmon;
+      border-radius: 12px;
     }
   }
 /*----------------------- Область обработки цитат ------------------------------ */
 
-
-
-/*----------------------- Область обработки выпадающего меню ------------------------------ */
-
-/* скрываем выпадающие списки по умолчанию
-			 * и задаем абсолютное позиционирование 
-			nav li > ul  {
-			    display: none;
-			    position: absolute;
-			    top: 100%;
-			}
-	
-			nav li:hover > ul {
-			    display:inherit;
-			}
-			
-	
-			nav li ul a{
-			    min-width:170px;
-			    float:none;
-			    display:list-item;
-			    position: relative;
-			} */
 
 
 nav > li:hover > ul{
@@ -193,29 +171,7 @@ nav > li:hover > ul{
 }
 
 
-.inner_menu{
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  list-style: none;
-  padding-left: 0;
-  text-align: left;
-  white-space: nowrap;
-  background-color: #aaf0d1;
-}
 
-.inner_menu > li > a{
-  width: 100%;
-  display: inline-block;
-  padding: 10px 20px; 
-  color: inherit;
-  text-decoration: none; 
-}
-.inner_menu > li > a:hover{
-  color: white;
-  background-color: #a7fc00; 
-}
 /*----------------------- Область обработки выпадающего меню ------------------------------ */
 
 
@@ -223,9 +179,10 @@ nav > li:hover > ul{
 /*----------------------- Область обработки Grid-элемента о направлениях деятельности компании ------------------------------ */
 .grid-container {
   border-radius: 8px;
+  border-color: red;
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+  background-color: #1A4780;
   padding: 10px;
 }
 .grid-item {
